@@ -1,0 +1,53 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+    width: 100%;
+
+}
+
+
+form {
+    height: 10%;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+ul {
+    display: flex;
+    height: 35%;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    padding-top: 27px;
+
+}
+
+ul>li {
+
+    height: 15%;
+    list-style: none;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.red {
+    color: red;
+}
+
+.green {
+    color: green;
+}
+
+.blue {
+    color: blue;
+}
